@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="065a6df7-a209-4187-8ae0-3dc5eb5289b6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/certifications/awscertifications.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/certifications/awscertifications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/certifications/certification.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/certifications/certification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/certifications/microsoft.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/certifications/microsoft.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/certifications/oracle.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/certifications/oracle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/technical/training.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/technical/training.html" />
-    </list>
+    <list default="true" id="065a6df7-a209-4187-8ae0-3dc5eb5289b6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
