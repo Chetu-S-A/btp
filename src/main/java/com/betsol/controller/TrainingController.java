@@ -31,7 +31,22 @@ private TrainingService trainingService;
 		return modelAndView;
 	}
 	
+	@RequestMapping(value="technical/oops", method = RequestMethod.GET)
+	public ModelAndView gotoOopsTraining(){
+		ModelAndView modelAndView = new ModelAndView();
 	
+		
+		modelAndView.setViewName("technical/oops");
+		return modelAndView;
+	}
+	@RequestMapping(value="technical/oopsTrain", method = RequestMethod.GET)
+	public ModelAndView gotoOops(){
+		ModelAndView modelAndView = new ModelAndView();
+	
+		
+		modelAndView.setViewName("technical/oopsTrain");
+		return modelAndView;
+	}
 	
 
 }
