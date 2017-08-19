@@ -12,17 +12,20 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.betsol.model.User;
+import com.betsol.service.TrainingService;
 import com.betsol.service.UserService;
 
 @Controller
 public class TrainingController {
 	
 	
-	
+@Autowired
+private TrainingService trainingService;
 	
 	@RequestMapping(value="technical/training", method = RequestMethod.GET)
 	public ModelAndView registration(){
 		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.addObject("training", trainingService.findAll());
 		
 		modelAndView.setViewName("technical/training");
 		return modelAndView;
