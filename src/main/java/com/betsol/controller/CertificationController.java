@@ -11,11 +11,36 @@ public class CertificationController {
 
 
     @RequestMapping(value="certifications/certification", method = RequestMethod.GET)
-    public ModelAndView registration(){
+    public ModelAndView certification(){
         ModelAndView modelAndView = new ModelAndView();
 
         modelAndView.setViewName("certifications/certification");
         return modelAndView;
     }
+
+    @RequestMapping(value="certifications/microsoft", method = RequestMethod.GET)
+    public ModelAndView microsoft(){
+        ModelAndView modelAndView = new ModelAndView();
+
+        modelAndView.setViewName("certifications/microsoft");
+        return modelAndView;
+    }
+
+    @RequestMapping(value="certifications/awscertifications", method = RequestMethod.GET)
+    public ModelAndView aws(){
+        ModelAndView modelAndView = new ModelAndView();
+
+        modelAndView.setViewName("certifications/awscertifications");
+        return modelAndView;
+    }
+
+    @RequestMapping(value="certifications/oracle", method = RequestMethod.GET)
+    public ModelAndView oracle(){
+        ModelAndView modelAndView = new ModelAndView();
+
+        modelAndView.setViewName("certifications/oracle");
+        return modelAndView;
+    }
+
 
 }
